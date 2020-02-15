@@ -16,7 +16,7 @@
 <body>
   <!-- Start Nav -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <span class="navbar-brand mb-1 h1"></span>
+    <span class="navbar-brand mb-1 h1">John O'Neill</span>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -49,22 +49,21 @@
          
          <form id="contact-form" method="post" action="contact.php" role="form">
 
-                <div class="messages"></div>
-            
+                <div class="messages"></div>           
                 <div class="controls">
             
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group">
                                 <label for="form_name">Firstname *</label>
-                                <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                                <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Please enter your First Name.">
                                 <div class="help-block with-errors"></div>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
                                 <label for="form_lastname">Lastname *</label>
-                                <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                                <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Lastname is optional *">
                                 <div class="help-block with-errors"></div>
                             </div>
                         </div>
@@ -82,7 +81,7 @@
                         <div class="col-md-12">
                             <div class="form-group">
                                 <label for="form_message">Message *</label>
-                                <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                                <textarea id="form_message" name="message" class="form-control" placeholder="What do you want to say? *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
                                 <div class="help-block with-errors"></div>
                             </div>
                         </div>
